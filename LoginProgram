@@ -1,0 +1,25 @@
+package login;
+import java.util.*;
+public class Login {
+public static void main(String[] args) {
+Scanner Input = new Scanner(System.in);
+String Username;
+String Password;
+System.out.println("Log In");
+System.out.print("Username:");
+Username = Input.nextLine();
+System.out.print("Password);
+Password = Input.nextLine();
+if(Username.equals("Username") & Password.equals("Password")){
+System.out.println("Access Granted!")
+}
+else if(Username.equals("Username"){
+System.out.println("Wrong Password!");
+}else if(Password.equals("Password"){
+System.out.println("Wrong Username!");
+}else{
+System.out.println("Wrong Username & Password!");
+System.exit(0);
+}
+}
+}
